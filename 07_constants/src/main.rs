@@ -20,5 +20,7 @@ fn main() {
 }
 
 // You can always declare a constant with type annotation in any scope, including the global scope, which makes it a global constant.
-const PI: f64 = 3.14159265359;
+// ignore the warning for unused constant.
+
+const PI:f64 = 3.14159265359;
 const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3;
